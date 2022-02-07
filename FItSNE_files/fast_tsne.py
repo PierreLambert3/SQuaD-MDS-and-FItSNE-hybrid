@@ -326,8 +326,7 @@ def fast_tsne(
         ]
     )
     print("\n... DONE\n")
-# C:\Users\michel poulet\Documents\dev\HD_visualiser_testing/results_fitsne.txt
-# C:\Users\michel poulet\Documents\dev\HD_visualiser_testing/results_fitsne.txt
+
     print(os.getcwd() + '/' + outfile)
     # read data file
     with open(os.getcwd() + '/' + outfile, 'rb') as f:
