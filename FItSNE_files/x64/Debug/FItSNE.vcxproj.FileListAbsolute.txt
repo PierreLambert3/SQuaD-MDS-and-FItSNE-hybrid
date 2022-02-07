@@ -1,0 +1,2 @@
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\x64\Debug\FItSNE.exe
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\x64\Debug\FItSNE.pdb

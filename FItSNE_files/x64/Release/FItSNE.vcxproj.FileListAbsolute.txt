@@ -1,0 +1,2 @@
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\x64\Release\FItSNE.exe
+C:\Users\michel poulet\Documents\dev\neurtest\SQuaD_MDS\FItSNE_files\x64\Release\FItSNE.exe

@@ -1,0 +1,139 @@
+﻿  stdafx.cpp
+  SQuaD_MDS.cpp
+  tsne.cpp
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(84,17): warning C4081: expected '('; found 'string'
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\progress_bar\ProgressBar.hpp(35,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\SQuaD_MDS.cpp(231,15): warning C4101: 'y': unreferenced local variable
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\SQuaD_MDS.cpp(231,12): warning C4101: 'x': unreferenced local variable
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(168,37): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(171,37): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(304,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(306,40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(309,48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(339,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(340,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(386,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(405,38): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(420,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(575,38): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(580,38): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(654,1): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(669,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(672,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(692,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(699,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(711,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(734,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(747,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(762,1): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(777,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(803,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(810,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(824,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(851,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(867,1): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(887,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(907,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(916,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(947,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(977,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(992,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1006,1): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1027,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1074,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1083,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1098,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1143,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1162,1): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1190,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1275,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1377,1): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1409,1): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1603,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1606,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1618,54): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1619,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1631,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1661,59): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1718,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1745,59): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1784,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1788,45): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1829,27): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1848,32): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2139,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2152,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2174,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2177,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2183,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2189,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2190,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2192,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2198,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2341,144): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(2262,36): warning C4101: 'initial_data': unreferenced local variable
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\vptree.h(126,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\vptree.h(123): message : while compiling class template member function 'void VpTree<DataPoint,double euclidean_distance(const DataPoint &,const DataPoint &)>::create(const std::vector<T,std::allocator<T>> &)'
+          with
+          [
+              T=DataPoint
+          ]
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1707): message : see reference to function template instantiation 'void VpTree<DataPoint,double euclidean_distance(const DataPoint &,const DataPoint &)>::create(const std::vector<T,std::allocator<T>> &)' being compiled
+          with
+          [
+              T=DataPoint
+          ]
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1704): message : see reference to class template instantiation 'VpTree<DataPoint,double euclidean_distance(const DataPoint &,const DataPoint &)>' being compiled
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1142,1): warning C4267: 'return': conversion from 'size_t' to 'S', possible loss of data
+          with
+          [
+              S=int
+          ]
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1141): message : while compiling class template member function 'S AnnoyIndex<S,double,Euclidean,Kiss32Random>::get_n_trees(void) const'
+          with
+          [
+              S=int
+          ]
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1596): message : see reference to class template instantiation 'AnnoyIndex<int,double,Euclidean,Kiss32Random>' being compiled
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1119,19): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1119,19): message : consider using '%zu' in the format string
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1058): message : while compiling class template member function 'bool AnnoyIndex<int,double,Euclidean,Kiss32Random>::load(const char *,bool,char **)'
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(947,1): warning C4267: '+=': conversion from 'size_t' to 'S', possible loss of data
+          with
+          [
+              S=int
+          ]
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(910): message : while compiling class template member function 'bool AnnoyIndex<int,double,Euclidean,Kiss32Random>::build(int,char **)'
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\tsne.cpp(1612): message : see reference to function template instantiation 'bool AnnoyIndex<int,double,Euclidean,Kiss32Random>::build(int,char **)' being compiled
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(953,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(897,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(882): message : while compiling class template member function 'bool AnnoyIndex<int,double,Euclidean,Kiss32Random>::on_disk_build(const char *,char **)'
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1234,1): warning C4477: 'fprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1234,1): message : consider using '%zd' in the format string
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1184): message : while compiling class template member function 'S AnnoyIndex<S,double,Euclidean,Kiss32Random>::_make_tree(const std::vector<S,std::allocator<S>> &,bool)'
+          with
+          [
+              S=int
+          ]
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(939): message : see reference to function template instantiation 'S AnnoyIndex<S,double,Euclidean,Kiss32Random>::_make_tree(const std::vector<S,std::allocator<S>> &,bool)' being compiled
+          with
+          [
+              S=int
+          ]
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1234,1): warning C4477: 'fprintf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type 'unsigned __int64'
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1234,1): message : consider using '%zd' in the format string
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1237,9): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1237,9): message : consider using '%zu' in the format string
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1167,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(1160): message : while compiling class template member function 'void AnnoyIndex<int,double,Euclidean,Kiss32Random>::_allocate_size(S)'
+          with
+          [
+              S=int
+          ]
+C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\src\annoylib.h(944): message : see reference to function template instantiation 'void AnnoyIndex<int,double,Euclidean,Kiss32Random>::_allocate_size(S)' being compiled
+          with
+          [
+              S=int
+          ]
+  Generating Code...
+  FItSNE.vcxproj -> C:\Users\michel poulet\Documents\dev\HD_visualiser_testing\DR_algorithms\FItSNE_files\x64\Debug\FItSNE.exe
