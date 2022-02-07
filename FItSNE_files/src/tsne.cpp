@@ -477,7 +477,7 @@ int TSNE::run(int algorithm_type, int nb_iter_no_force_std,double hybrid_tsne_LR
         double* n_norms  = (double*) malloc(N * sizeof(double));
 
         for (int iteration = 0; iteration < max_iter; iteration++) {
-            //printf("il faudra utiliser un degree of freedom plus faible pour mieux espacer les points (plus de répulsion avec plus gros tails)\n %i \n", iteration);
+            //printf("il faudra utiliser un degree of freedom plus faible pour mieux espacer les points (plus de rÃ©pulsion avec plus gros tails)\n %i \n", iteration);
             if (iteration > decay_start) {
                 temp_ratio = ( (double) (iteration - decay_start)) / (max_iter - decay_start);
                 LR_MDS  = LR_MDS_init * (exp(-(temp_ratio * temp_ratio) / decay_cte) + decay_offset);
@@ -501,7 +501,7 @@ int TSNE::run(int algorithm_type, int nb_iter_no_force_std,double hybrid_tsne_LR
                     Y[param_idx] *= transformation;
                     tmp_params[param_idx] = Y[param_idx] + momentums[param_idx] + momentums2[param_idx];
                 }
-                printf("  % f --- \n ", standard_deviation_1D(Y, 2*N));
+                //printf("  % f --- \n ", standard_deviation_1D(Y, 2*N));
             }
             else{
                 for (int param_idx = 0; param_idx < 2 * N; param_idx++) {
@@ -562,7 +562,7 @@ int TSNE::run(int algorithm_type, int nb_iter_no_force_std,double hybrid_tsne_LR
                 Y[y_idx] += momentums[y_idx] + momentums2[y_idx];
            
             }
-            printf("  % f \n ", standard_deviation_1D(Y, 2*N));
+            //printf("  % f \n ", standard_deviation_1D(Y, 2*N));
 
             zeroMean(Y, N, no_dims);
 
