@@ -61,7 +61,6 @@ def run_SQuaD_MDS_python(Xhd, hparams, progress_stuff=None):
 
     return Xld
 
-# du coup, est ce que le LR doit dependre du nb de points i on fait le norm avec axis=0??
 
 def nestrov_iteration(Xld, grads, momentums, perms, batches_idxes, Xhd, Dhd_quartet, LR, distance_exaggeration=False): # coputes and applies gradients, updates momentum too
     momentums *= 0.99
