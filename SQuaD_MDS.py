@@ -10,7 +10,7 @@ def populate_hparams(hparams, N):
         hparams['n iter'] = 3000 # higher values bring better results
 
     if not 'LR' in hparams:
-        hparams['LR'] = 500
+        hparams['LR'] = 500 # this can be changed as an option, but generaly this isn't necessary
 
 def run_SQuaD_MDS(Xhd, hparams, python=False):
     if not python:
