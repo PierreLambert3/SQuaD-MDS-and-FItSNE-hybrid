@@ -11,25 +11,25 @@ from scipy.stats import zscore
 
 
 def populate_hparams(hparams, N):
-    if not 'on N PC' in hparams:
+    if not 'on N PC' in hparams: # ignored
         hparams['on N PC'] = -1
 
     if not 'n iter' in hparams:
         hparams['n iter'] = 750
 
-    if not 'tSNE LR' in hparams:
+    if not 'tSNE LR' in hparams: # LR of tSNE gradients
         hparams['tSNE LR'] = 1.
 
-    if not 'MDS LR' in hparams:
+    if not 'MDS LR' in hparams: # LR of MDS gradients
         hparams['MDS LR'] = 0.5
 
     if not 'tSNE perplexities' in hparams:
         hparams['tSNE perplexities'] = [4., 50.]
 
-    if not 'tSNE exa' in hparams:
+    if not 'tSNE exa' in hparams: # strength of early exageration on tSNE
         hparams['tSNE exa'] = 2.
 
-    if not 'niter no scale fixing' in hparams:
+    if not 'niter no scale fixing' in hparams: # tSNE tends to spread the points like an oil drop in water. during (Niter-hparams['niter no scale fixing']), the optimisation rescales the embedding at each iteration in order to keep a small scale: FItSNE is faster on small scales.
         hparams['niter no scale fixing'] = 150
 
 
