@@ -151,7 +151,7 @@ void fill_quartet_grads(double* quartet_grads, double* Dhd_quartet, double* Dld_
     double d_cd = Dld_quartet[5];
     double sum_dist = d_ab + d_ac + d_ad + d_bc + d_bd + d_cd;
     
-    //printf("peut etre que c est la somme de chaque grdient de ABCDgrad qui foire...\n");
+    
     double gxA = 0, gyA = 0, gxB = 0, gyB = 0, gxC = 0, gyC = 0, gxD = 0, gyD = 0;
     ABCD_grad(xa, ya, xb, yb, xc, yc, xd, yd, d_ab, d_ac, d_ad, d_bc, d_bd, d_cd, sum_dist, Dhd_quartet[0], quartet_grads); // gradient for distance between 1 and 2 (AB)
     gxA += quartet_grads[0];gyA += quartet_grads[1];
@@ -272,13 +272,12 @@ void custom_nestrov_iteration(int N, int M, double* Xhd, double* Xld_flat, doubl
 
 
 int run_SQuaD_MDS(double* Xhd, int N, int M, double* Xld_flat, int n_iter) {
-    // set standard dev to 10. the various constants were found using such an initialisation. using 10^-4 as is customary for tSNE is not necessary here because the purpose of 1e-4 init is to better preserve global structures. SQuaD-MDS takes care of that
     init_embedding(Xld_flat, 2 * N, 10.0);
     
     // optimiser strategy params
     double LR_init = max(2., 0.005*(double)N);
     double LR = LR_init;
-    int decay_start = (int) (0.1 * (double) n_iter); // With random init, it can be worth it to start the decay later 
+    int decay_start = (int) (0.1 * (double) n_iter); // it can be worth it to start the decay later, especially with random init
     bool distance_exaggeration = false;  // exagerate (=square) the quartet HD distances during the first couple of iterations. It can help, especially on random inits
     if (decay_start > 0)
         bool distance_exaggeration = true;
@@ -302,10 +301,10 @@ int run_SQuaD_MDS(double* Xhd, int N, int M, double* Xld_flat, int n_iter) {
 
 
     for (int iteration = 0; iteration < n_iter; iteration++) {
-        //printf("il faudra utiliser un degree of freedom plus faible pour mieux espacer les points (plus de répulsion avec plus gros tails)\n %i \n", iteration);
+        
         if (iteration > decay_start) {
             temp_ratio = ( (double) (iteration - decay_start)) / (n_iter - decay_start);
-            LR = LR_init * (exp(-(temp_ratio * temp_ratio) / decay_cte) + decay_offset);
+            LR = LR_init * (exp(-(temp_ratio * temp_ratio) / decay_cte) + decay_offset); // alternative to classic exponential decay, no big impact in practice
             //LR *= decay;
         }else if (iteration == decay_start) {
              distance_exaggeration = false;
