@@ -10,7 +10,7 @@ def populate_hparams(hparams, N):
         hparams['n iter'] = 3000 # higher values bring better results
 
     if not 'LR' in hparams:
-        hparams['LR'] = 500 # this can be changed as an option, but generaly this isn't necessary
+        hparams['LR'] = 1
 
 def run_SQuaD_MDS(Xhd, hparams, python=False):
     if not python:
@@ -29,7 +29,7 @@ def run_SQuaD_MDS_python(Xhd, hparams, progress_stuff=None):
 
     Xld = init_embedding(Xhd) # init Xld with PCA, then set standard dev of the initialisation to 10
 
-    hparams['LR'] = max(2., 0.005*N)
+    # hparams['LR'] = max(2., 0.005*N)
     print("LR : ", hparams['LR'])
 
     LR_init = hparams['LR']
@@ -67,8 +67,9 @@ def nestrov_iteration(Xld, grads, momentums, perms, batches_idxes, Xhd, Dhd_quar
 
     fill_MDS_grads(Xld+momentums, grads, perms, batches_idxes, Xhd, Dhd_quartet, exaggeration=distance_exaggeration)
 
-    norm = np.linalg.norm(grads, keepdims=True)
-    mul  = LR / norm
+    # norm = np.linalg.norm(grads, keepdims=True)
+    # mul  = LR / norm
+    mul = LR
 
     momentums -= mul * grads
     Xld += momentums

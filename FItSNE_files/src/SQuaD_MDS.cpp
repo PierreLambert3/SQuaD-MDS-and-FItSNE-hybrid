@@ -229,28 +229,17 @@ void fill_MDS_grads(int N, int M, double* Xhd, double* tmp_params, double* grads
 
 void update_momentum_and_Xld(double* grads, int N, double* Xld_flat, double* momentums, double LR){
     int x_idx, y_idx;
+    for (int point_nb = 0; point_nb < N; point_nb++) { // for each point in LD space ...
+        x_idx = point_nb * 2;
+        y_idx = x_idx + 1;
 
-    double norm = 0.;
-    for (int point_nb = 0; point_nb < N; point_nb++){
-        x_idx = point_nb * 2;
-        y_idx = x_idx + 1;
-        norm  += grads[x_idx]*grads[x_idx] + grads[y_idx]*grads[y_idx];
-    }
-    norm = sqrt(norm);
-    
-    double multiplier = LR / norm; // remember that LR grows with N
-    for (int point_nb = 0; point_nb < N; point_nb++){ // for each point in LD space ...
-        x_idx = point_nb * 2;
-        y_idx = x_idx + 1;
-        
         // update momentum
-        momentums[x_idx] -= multiplier * grads[x_idx];
-        momentums[y_idx] -= multiplier * grads[y_idx];
-        
+        momentums[x_idx] -= LR * grads[x_idx];
+        momentums[y_idx] -= LR * grads[y_idx];
+
         // update Xld
         Xld_flat[x_idx] += momentums[x_idx];
         Xld_flat[y_idx] += momentums[y_idx];
-           
     }
 }
 
@@ -275,7 +264,7 @@ int run_SQuaD_MDS(double* Xhd, int N, int M, double* Xld_flat, int n_iter) {
     init_embedding(Xld_flat, 2 * N, 10.0);
     
     // optimiser strategy params
-    double LR_init = max(2., 0.005*(double)N);
+    double LR_init = 1;
     double LR = LR_init;
     int decay_start = (int) (0.1 * (double) n_iter); // it can be worth it to start the decay later, especially with random init
     bool distance_exaggeration = false;  // exagerate (=square) the quartet HD distances during the first couple of iterations. It can help, especially on random inits

@@ -32,6 +32,11 @@ def populate_hparams(hparams, N):
     if not 'niter no scale fixing' in hparams: # tSNE tends to spread the points like an oil drop in water. during (Niter-hparams['niter no scale fixing']), the optimisation rescales the embedding at each iteration in order to keep a small scale: FItSNE is faster on small scales.
         hparams['niter no scale fixing'] = 150
 
+def run_fitSNE(Xhd, hparams):
+    N, M = Xhd.shape
+    populate_hparams(hparams, N) # set the missing hyperparameters with their default values
+    from FItSNE_files.fast_tsne import fast_tsne
+    return fast_tsne(Xhd, method_type="fitsne", perplexity_list = [4, 50], max_iter = hparams['n iter'])
 
 def run_hybrid(Xhd, hparams):
     N, M = Xhd.shape
