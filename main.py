@@ -14,8 +14,21 @@ def get_satellite():
     return zscore(X, axis=0), Y
 
 X, Y = get_satellite()
-X_mds = run_SQuaD_MDS(X, {})
-X_hybrid = run_hybrid(X, {})
+
+
+print("running the algorithms with the python code (BH-tSNE for the hybrid verison, carefull if N is big)")
+X_mds = run_SQuaD_MDS(X, {'in python':True})
+X_hybrid = run_hybrid(X, {'in python':True})
+
+plt.scatter(X_mds[:, 0], X_mds[:, 1], c=Y)
+plt.show()
+plt.scatter(X_hybrid[:, 0], X_hybrid[:, 1], c=Y)
+plt.show()
+
+
+print("running the algorithms with the C++ code (same as in the paper, using FIt-SNE for a O(N) time complexity)")
+X_mds = run_SQuaD_MDS(X, {'in python':False})
+X_hybrid = run_hybrid(X, {'in python':False})
 
 plt.scatter(X_mds[:, 0], X_mds[:, 1], c=Y)
 plt.show()

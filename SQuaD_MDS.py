@@ -12,12 +12,22 @@ def populate_hparams(hparams, N):
     if not 'LR' in hparams:
         hparams['LR'] = 1
 
+    if not 'in python' in hparams:
+        hparams['in python'] = True
+
 def run_SQuaD_MDS(Xhd, hparams, python=False):
-    if not python:
-        populate_hparams(hparams, Xhd.shape[0])
-        from FItSNE_files.fast_tsne import fast_tsne
-        return fast_tsne(Xhd, method_type="SQuaD_MDS", perplexity_list = [1], max_iter = hparams['n iter'])
+    populate_hparams(hparams, Xhd.shape[0])
+    if not hparams['in python']:
+        try:
+            from FItSNE_files.fast_tsne import fast_tsne
+            print("running the C++ version...")
+            return fast_tsne(Xhd, method_type="SQuaD_MDS", perplexity_list = [1], max_iter = hparams['n iter'])
+        except:
+            print("could not launch the C++ version, make sure that both FItSNE.exe and libfftw3-3.dll are in the bin folder (for the .exe you need to build the solution, tested with Visual studio 2019)")
+            print("running the python version instead (slower but still O(N))")
+            return run_SQuaD_MDS_python(Xhd, hparams)
     else:
+        print("running the python version...")
         return run_SQuaD_MDS_python(Xhd, hparams)
 
 def run_SQuaD_MDS_python(Xhd, hparams, progress_stuff=None):
